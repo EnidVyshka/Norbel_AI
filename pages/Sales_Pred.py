@@ -24,7 +24,7 @@ def sales_prediction_page():
             st.dataframe(store_sales, use_container_width=True, hide_index=True)
         # col1, col2 = st.columns(2)
         selected_model = st.sidebar.selectbox("Zgjidhni algoritmin", options=["Linear Regeression", "Random Forest"])
-        store_sales = pd.read_csv('Sales/train.csv')
+        # store_sales = pd.read_csv('Sales/train.csv')
         store_sales = store_sales.drop(['store','item'], axis=1)
         store_sales['date'] = pd.to_datetime(store_sales['date'])
         store_sales['date'] = store_sales['date'].dt.to_period('M')
