@@ -5,7 +5,7 @@ import streamlit as st
 # Set page configuration 
 st.set_page_config(
     page_title="Norbel AI Platform",
-    page_icon="logo.PNG",
+    page_icon="https://github.com/EnidVyshka/Norbel_AI/blob/master/logo.png?raw=true",
     layout="wide",
     initial_sidebar_state="collapsed"
 )
