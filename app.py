@@ -32,7 +32,7 @@ def display_navigation_buttons():
 # Home Page
 def home():
     st.markdown(" # 👋 Welcome to the Norbel AI")
-    st.image("logo.PNG")
+    st.image("https://github.com/EnidVyshka/Norbel_AI/blob/master/logo.png?raw=true")
 
 
 # Page 1
